@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Web del Tiempo Actual</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body onload="onLoad()">
+
+    <header>
+        <h1>Tu Web del Tiempo Actual</h1>
+    </header>
+    <div id="loader" class="loader">Loading...</div>
+    <div id="container">
+
+        <div class="block">
+            <div class="information-container">
+                <h2>Ciudad: </h2>
+                <div id="location"></div>
+
+            </div>
+            <div class="information-container">
+                <h2>Estado del Cielo: </h2>
+                <div id="description"></div>
+            </div>
+            <div class="information-container">
+                <h2>Fecha: </h2>
+                <div id="date"></div>
+            </div>
+        </div>
+        <div class="block" id="derecho">
+            <div class="information-container">
+                <h2>Presión Atmosférica: </h2>
+                <div class="info" id="pressure"></div>
+            </div>
+            <div class="information-container">
+                <h2>Temperatura: </h2>
+                <div class="info" id="temperature"></div>
+            </div>
+            <div class="information-container">
+                <h2>Humedad: </h2>
+                <div class="info" id="humidity"></div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>
+            Esta pagina ha sido creada para uso personal por Adrian Aguilar. <br>
+            La información usada en esta web no es almacenada.
+        </p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
