@@ -4,7 +4,7 @@
 
 body {
   background-color: #3083dc;
-  background-image: url("/images/weather\ background.jpeg");
+  background-image: url("/weather_background.jpeg");
   color: black;
   height: 100vh;
   display: flex;
