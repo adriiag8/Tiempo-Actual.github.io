@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 header {
@@ -29,14 +30,29 @@ header {
   padding: 20px;
   display: flex;
   width: 65vw;
-  height: 50vh;
-  display: flex;
+  height: 30vh;
   opacity: 80%;
   border-radius: 25%;
 }
 
 #container > .block {
   padding: 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  position: relative;
+  bottom: 20px;
+  border-radius: 15%;
+  background-color: #f8ffe5;
+  width: 65vw;
+  height: 30vh;
+  padding: 20px;
 }
 
 .block {
@@ -142,6 +158,29 @@ h2 {
   font-weight: bold;
   font-size: 1.5rem;
   color: #3083dc;
+}
+
+.weatherForm {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 15px;
+  height: 20rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.weatherEmoji {
+  font-size: 2em;
 }
 
 footer {

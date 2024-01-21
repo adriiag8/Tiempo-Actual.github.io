@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Web del Tiempo Actual</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js" defer></script>
 </head>
 
 <body onload="onLoad()">
@@ -48,7 +48,18 @@
         </div>
 
     </div>
-    <script src="script.js"></script>
+    <section>
+        <form class="weatherForm">
+            <h2>Introduce la ciudad que quieras: </h2>
+            <input type="text" class="cityInput" placeholder="Introduzca la ciudad">
+            <button type="submit">Obtener Info</button>
+        </form>
+
+        <div class="card" style="display: none;">
+
+
+        </div>
+    </section>
     <footer>
         <p>
             Esta pagina ha sido creada para uso personal por Adrian Aguilar. <br>
@@ -56,7 +67,7 @@
         </p>
     </footer>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
